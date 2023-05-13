@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville&display=swap");
 @font-face {
   font-family: "Voga";
   src: url(../../fonts/Voga-Medium.otf);
@@ -41,6 +42,39 @@ header a:hover {
   letter-spacing: 2px;
 }
 
+#divine-comedy {
+  background-color: #AF1E15;
+  height: 100vh;
+}
+
+#inferno {
+  background-color: #AF1E15;
+  height: 100vh;
+}
+
+#contact {
+  background-color: #AF1E15;
+  height: 100vh;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+footer a {
+  color: white;
+  font-family: "Voga";
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.2s;
+}
+footer a:hover {
+  color: #AF1E15;
+}
+
 #hero {
   display: flex;
   height: 100vh;
@@ -63,6 +97,46 @@ header a:hover {
 }
 #hero h2 .divine:hover {
   color: #AF1E15;
+}
+
+.row > * {
+  padding: 0;
+}
+
+#dante {
+  background-image: url(../../images/florence.jpg);
+}
+
+.container-fluid {
+  height: 100vh;
+  width: 80vw;
+  padding-left: 0;
+  padding-right: 0;
+}
+.container-fluid .col-4 .dante-face {
+  background-image: url(../../images/Portrait_Dante.jpg);
+  height: 100%;
+  background-size: cover;
+}
+.container-fluid .col-8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container-fluid .col-8 h1 {
+  font-family: "Voga";
+  font-size: 100px;
+  padding: 0 40px;
+  transition: 0.2s;
+}
+.container-fluid .col-8 h1:hover {
+  color: #AF1E15;
+}
+.container-fluid .col-8 p {
+  font-size: 20px;
+  font-family: "Baskervville";
+  color: white;
 }
 
 /*# sourceMappingURL=app.css.map */

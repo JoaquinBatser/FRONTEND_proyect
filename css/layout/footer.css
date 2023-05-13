@@ -1,3 +1,19 @@
-
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+footer a {
+  color: white;
+  font-family: "Voga";
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.2s;
+}
+footer a:hover {
+  color: #AF1E15;
+}
 
 /*# sourceMappingURL=footer.css.map */

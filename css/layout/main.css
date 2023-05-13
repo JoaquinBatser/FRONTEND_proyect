@@ -1,25 +1,16 @@
-#hero {
-  display: flex;
+#divine-comedy {
+  background-color: #AF1E15;
   height: 100vh;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-image: url(../../images/The_Barque_of_Dante.jpg);
-  background-size: cover;
-  background-position: center;
-  font-family: "Voga";
-  color: white;
 }
-#hero h1 {
-  font-size: 240px;
-  letter-spacing: 18px;
+
+#inferno {
+  background-color: #AF1E15;
+  height: 100vh;
 }
-#hero h2 .divine {
-  margin: 20px;
-  transition: 0.2s;
-}
-#hero h2 .divine:hover {
-  color: #AF1E15;
+
+#contact {
+  background-color: #AF1E15;
+  height: 100vh;
 }
 
 /*# sourceMappingURL=main.css.map */
