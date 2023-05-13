@@ -1,0 +1,46 @@
+
+
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    height: 80px;
+    font-family: "Voga";
+
+    .logo {
+        font-size: 50px;
+
+        &:hover {
+            font-size: 54px;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    li {
+        text-decoration: none;
+        padding: 0 30px; 
+        display: flex;
+        align-items: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 24px;
+        letter-spacing: 1px;
+        transition: .5s;
+        
+        &:hover {
+            border-bottom: 1px #AF1E15 solid;
+            letter-spacing: 2px;
+        }
+    }
+}
