@@ -1,3 +1,61 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+}
 
+#inferno-hero {
+  background-image: url(../../images/2638px-Gustave_Doré_-_Dante_Alighieri_-_Inferno_-_Plate_10_\(Canto_III_-_Charon_herds_the_sinners_onto_his_boat\).jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover10;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+#inferno-hero h1 {
+  text-align: center;
+  font-family: "Voga";
+  font-size: 600px;
+  color: #AF1E15;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.inferno-2-text {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  background-image: url(../../images/DVinfernoCiampoloDemonAlichino_m.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.inferno-2-text p {
+  text-align: center;
+  padding: 200px;
+  font-size: 24px;
+  font-family: "Berskersvville";
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.inferno-parts {
+  padding-top: 80px;
+  background-image: url(../../images/levels.jpg);
+  background-size: cover;
+  background-position: center20;
+  height: 100vh;
+  width: 100%;
+}
+.inferno-parts .row {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-family: "Voga";
+  font-size: 60px;
+  letter-spacing: 4px;
+}
 
 /*# sourceMappingURL=inferno.css.map */
