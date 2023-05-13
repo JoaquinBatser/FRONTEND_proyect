@@ -15,5 +15,9 @@ footer a {
 footer a:hover {
   color: #AF1E15;
 }
+footer a img {
+  height: 30px;
+  padding-right: 20px;
+}
 
 /*# sourceMappingURL=footer.css.map */

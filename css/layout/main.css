@@ -1,16 +1,7 @@
-#divine-comedy {
-  background-color: #AF1E15;
-  height: 100vh;
-}
-
-#inferno {
-  background-color: #AF1E15;
-  height: 100vh;
-}
-
-#contact {
-  background-color: #AF1E15;
-  height: 100vh;
+.row > * {
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

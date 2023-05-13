@@ -1,41 +1,40 @@
-.row > * {
-  padding: 0;
-}
-
 #dante {
   background-image: url(../../images/florence.jpg);
 }
 
-.container-fluid {
+.dante {
   height: 100vh;
-  width: 80vw;
+  width: 100vw;
   padding-left: 0;
   padding-right: 0;
 }
-.container-fluid .col-4 .dante-face {
+.dante .dante-face {
   background-image: url(../../images/Portrait_Dante.jpg);
   height: 100%;
   background-size: cover;
+  border-right: 80px rgba(175, 30, 21, 0.4) solid;
 }
-.container-fluid .col-8 {
+.dante .dante-text {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
-.container-fluid .col-8 h1 {
+.dante .dante-text h1 {
   font-family: "Voga";
   font-size: 100px;
   padding: 0 40px;
   transition: 0.2s;
-}
-.container-fluid .col-8 h1:hover {
   color: #AF1E15;
 }
-.container-fluid .col-8 p {
+.dante .dante-text h1:hover {
+  color: white;
+}
+.dante .dante-text p {
   font-size: 20px;
   font-family: "Baskervville";
   color: white;
+  padding-right: 80px;
 }
 
 /*# sourceMappingURL=dante.css.map */
