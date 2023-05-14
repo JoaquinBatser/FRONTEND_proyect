@@ -22,4 +22,20 @@
   color: #AF1E15;
 }
 
+@media only screen and (max-width: 576px) {
+  #hero {
+    text-align: center;
+  }
+  #hero h1 {
+    font-size: 100px;
+    letter-spacing: 2px;
+  }
+  #hero h2 {
+    font-size: 20px;
+  }
+  #hero h2 .divine {
+    margin: 10px;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */

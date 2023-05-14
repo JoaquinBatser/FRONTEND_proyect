@@ -37,4 +37,21 @@ header a:hover {
   letter-spacing: 2px;
 }
 
+@media only screen and (max-width: 576px) {
+  header {
+    height: fit-content;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  header ul {
+    padding: 0;
+  }
+  header li {
+    padding: 10 20px;
+  }
+  header a {
+    font-size: 18px;
+  }
+}
+
 /*# sourceMappingURL=header.css.map */

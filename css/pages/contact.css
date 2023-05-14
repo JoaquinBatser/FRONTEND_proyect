@@ -1,3 +1,67 @@
+@charset "UTF-8";
+::placeholder {
+  color: white;
+}
 
+.contact-main {
+  background-image: url("../../images/2702px-Gustave_Doré_-_Dante_Alighieri_-_Inferno_-_Plate_65_(Canto_XXXI_-_The_Titans).jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 80px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-main .form-inputs form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px;
+}
+.contact-main .form-inputs form textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: 2px rgba(175, 30, 21, 0.6) solid;
+  background-color: rgba(175, 30, 21, 0.6);
+  color: white;
+}
+.contact-main .form-inputs form input {
+  margin: 10px 0;
+  padding: 10px 20px;
+  width: fit-content;
+  border: 2px rgba(175, 30, 21, 0.6) solid;
+  background-color: rgba(175, 30, 21, 0.6);
+  margin-right: 20px;
+  color: white;
+}
+.contact-main .form-inputs form .buttons input {
+  padding: 6px 10px;
+  margin-right: 20px;
+  color: white;
+}
+.contact-main .map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.contact-main .map iframe {
+  width: 90%;
+  height: 90%;
+  border: 10px rgba(175, 30, 21, 0.2) solid;
+}
+
+@media only screen and (max-width: 576px) {
+  .contact-main {
+    padding-top: 180px;
+  }
+  .contact-main .map {
+    align-items: start;
+    height: 400px;
+  }
+}
 
 /*# sourceMappingURL=contact.css.map */

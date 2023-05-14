@@ -58,4 +58,34 @@
   letter-spacing: 4px;
 }
 
+@media only screen and (max-width: 576px) {
+  #inferno-hero {
+    padding-top: 140px;
+  }
+  #inferno-hero h1 {
+    display: flex;
+    align-items: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 90px;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  .inferno-2-text {
+    height: 120vh;
+  }
+  .inferno-2-text p {
+    padding: 0 20px;
+    word-spacing: 4px;
+    font-size: 16px;
+  }
+  .inferno-parts {
+    padding-top: 160px;
+    background-position: center;
+  }
+  .inferno-parts .row {
+    letter-spacing: 2px;
+    font-size: 40px;
+  }
+}
+
 /*# sourceMappingURL=inferno.css.map */

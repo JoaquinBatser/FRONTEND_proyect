@@ -46,3 +46,40 @@
         }
     }
 }
+
+@media only screen and (max-width: 576px) {
+    #dante {
+        background-image: none;
+    }
+    
+    .dante {
+        .dante-face {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            border: 0;
+            z-index: -1;
+        }
+
+        .dante-text {
+            flex-direction: column;
+            width: 100%;
+            padding: 0 40px;
+            margin-top: 320px;
+
+            h1 {
+                padding: 0;
+            }
+
+            p {
+                padding: 40px;
+                font-size: 16px;
+                background-color: rgba(175, 30, 21, 0.3);
+
+            }
+        }
+    }
+    
+    
+}
