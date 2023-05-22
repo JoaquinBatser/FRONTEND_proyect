@@ -42,6 +42,7 @@
                 justify-content: center;
                 align-items: end;
                 transition: 0.4s ease;
+                animation-name: fillFromLeft;
             
 
                 &:hover {
@@ -113,21 +114,4 @@
 }
 
 
-@media only screen and (max-width: 576px) {
-    .divine-parts {
-        .part-comedy {
-            height: 120vh;
 
-            h2 {
-                font-size: 80px;
-            }
-
-            p {
-                padding: 0 60px;
-                font-size: 16px;
-            }
-        }
-
-    }
-
-}

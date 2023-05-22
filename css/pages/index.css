@@ -4,11 +4,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
   background-image: url(../../images/The_Barque_of_Dante.jpg);
   background-size: cover;
   background-position: center;
   font-family: "Voga";
   color: white;
+  animation: fadeIn 6s ease-in-out;
 }
 #hero h1 {
   font-size: 240px;

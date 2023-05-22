@@ -37,6 +37,7 @@
   justify-content: center;
   align-items: end;
   transition: 0.4s ease;
+  animation-name: fillFromLeft;
 }
 .divine-parts .parts .col .part-img:hover {
   border: 40px rgba(175, 30, 21, 0.4) solid;
@@ -82,19 +83,6 @@
   padding: 0 100px;
   font-family: "Baskervville";
   font-size: 18px;
-}
-
-@media only screen and (max-width: 576px) {
-  .divine-parts .part-comedy {
-    height: 120vh;
-  }
-  .divine-parts .part-comedy h2 {
-    font-size: 80px;
-  }
-  .divine-parts .part-comedy p {
-    padding: 0 60px;
-    font-size: 16px;
-  }
 }
 
 /*# sourceMappingURL=divine_comedy.css.map */

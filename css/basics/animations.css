@@ -1,0 +1,32 @@
+@keyframes dropDownHeader {
+  from {
+    transform: translateY(-200px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    color: transparent;
+  }
+  50% {
+    color: #AF1E15;
+  }
+  100% {
+    color: white;
+  }
+}
+@keyframes logoBreath {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #AF1E15;
+  }
+  100% {
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=animations.css.map */

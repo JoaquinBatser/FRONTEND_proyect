@@ -6,9 +6,11 @@ header {
   position: fixed;
   height: 80px;
   font-family: "Voga";
+  animation: dropDownHeader 1s ease-out;
 }
 header .logo {
   font-size: 50px;
+  animation: logoBreath 20s infinite ease-in-out;
 }
 header .logo:hover {
   font-size: 54px;
@@ -42,6 +44,7 @@ header a:hover {
     height: fit-content;
     flex-direction: column;
     padding-top: 10px;
+    animation: dropDownHeader 2s;
   }
   header ul {
     padding: 0;
