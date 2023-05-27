@@ -71,7 +71,7 @@ header a {
   transition: 0.5s;
 }
 header a:hover {
-  border-bottom: 1px #AF1E15 solid;
+  border-bottom: 1px #af1e15 solid;
   letter-spacing: 2px;
 }
 
@@ -117,7 +117,7 @@ footer a {
   transition: 0.2s;
 }
 footer a:hover {
-  color: #AF1E15;
+  color: #af1e15;
 }
 footer a img {
   height: 30px;
@@ -147,7 +147,7 @@ footer a img {
   transition: 0.2s;
 }
 #hero h2 .divine:hover {
-  color: #AF1E15;
+  color: #af1e15;
 }
 
 @media only screen and (max-width: 576px) {
@@ -192,7 +192,7 @@ footer a img {
   font-size: 100px;
   padding: 0 40px;
   transition: 0.2s;
-  color: #AF1E15;
+  color: #af1e15;
 }
 .dante .dante-text h1:hover {
   color: white;
@@ -203,7 +203,7 @@ footer a img {
   color: white;
   padding: 60px;
   padding-right: 80px;
-  background-color: rgba(175, 30, 21, 0.3);
+  background-color: rgba(175, 30, 21, 0.4);
 }
 
 @media only screen and (max-width: 576px) {
@@ -230,7 +230,7 @@ footer a img {
   .dante .dante-text p {
     padding: 40px;
     font-size: 16px;
-    background-color: rgba(175, 30, 21, 0.3);
+    background-color: rgba(175, 30, 21, 0.4);
   }
 }
 .row > * {
@@ -245,7 +245,7 @@ footer a img {
 
 .back-color-parts {
   background: rgb(255, 255, 255);
-  background: linear-gradient(0deg, rgb(255, 255, 255) 40%, rgb(175, 30, 21) 60%);
+  background: linear-gradient(0deg, rgb(255, 255, 255) 40%, #af1e15 60%);
   width: 100%;
 }
 
@@ -265,7 +265,6 @@ footer a img {
 .divine-parts .parts .col .part-img {
   width: 100%;
   height: 100%;
-  background-color: rgb(51, 51, 61);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -297,7 +296,7 @@ footer a img {
   background-image: url(../../images/Par_21_dore.jpg);
 }
 .divine-parts .paradiso {
-  color: rgb(175, 30, 21);
+  color: #af1e15;
 }
 .divine-parts .purgatorio {
   color: white;
@@ -337,7 +336,7 @@ footer a img {
   text-align: center;
   font-family: "Voga";
   font-size: 600px;
-  color: #AF1E15;
+  color: #af1e15;
   background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -460,7 +459,7 @@ footer a img {
 .contact-main .map iframe {
   width: 90%;
   height: 90%;
-  border: 10px rgba(175, 30, 21, 0.2) solid;
+  border: 10px rgba(175, 30, 21, 0.4) solid;
 }
 
 @media only screen and (max-width: 576px) {

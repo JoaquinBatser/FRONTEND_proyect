@@ -1,70 +1,17 @@
-#dante {
-  background-image: url(../../images/florence.jpg);
-}
+/* Error: Undefined variable.
+ *    ,
+ * 19 |         border-right: 80px $primary-color-low-opacity solid;
+ *    |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *    '
+ *   scss\pages\dante.scss 19:28  root stylesheet */
 
-.dante {
-  height: 100vh;
-  width: 100vw;
-  padding-left: 0;
-  padding-right: 0;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 19 \2502          border-right: 80px $primary-color-low-opacity solid;\d\a    \2502                             ^^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\pages\\dante.scss 19:28  root stylesheet";
 }
-.dante .dante-face {
-  background-image: url(../../images/Portrait_Dante.jpg);
-  height: 100%;
-  background-size: cover;
-  border-right: 80px rgba(175, 30, 21, 0.4) solid;
-}
-.dante .dante-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-.dante .dante-text h1 {
-  font-family: "Voga";
-  font-size: 100px;
-  padding: 0 40px;
-  transition: 0.2s;
-  color: #AF1E15;
-}
-.dante .dante-text h1:hover {
-  color: white;
-}
-.dante .dante-text p {
-  font-size: 20px;
-  font-family: "Baskervville";
-  color: white;
-  padding: 60px;
-  padding-right: 80px;
-  background-color: rgba(175, 30, 21, 0.3);
-}
-
-@media only screen and (max-width: 576px) {
-  #dante {
-    background-image: none;
-  }
-  .dante .dante-face {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    border: 0;
-    z-index: -1;
-  }
-  .dante .dante-text {
-    flex-direction: column;
-    width: 100%;
-    padding: 0 40px;
-    margin-top: 320px;
-  }
-  .dante .dante-text h1 {
-    padding: 0;
-  }
-  .dante .dante-text p {
-    padding: 40px;
-    font-size: 16px;
-    background-color: rgba(175, 30, 21, 0.3);
-  }
-}
-
-/*# sourceMappingURL=dante.css.map */

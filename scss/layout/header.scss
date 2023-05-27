@@ -41,7 +41,7 @@ header {
         transition: .5s;
         
         &:hover {
-            border-bottom: 1px #AF1E15 solid;
+            border-bottom: 1px $primary-color solid;
             letter-spacing: 2px;
         }
     }

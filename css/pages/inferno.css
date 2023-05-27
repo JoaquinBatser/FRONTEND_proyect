@@ -1,91 +1,17 @@
-@charset "UTF-8";
-* {
-  padding: 0;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 18 |         color: $primary-color;
+ *    |                ^^^^^^^^^^^^^^
+ *    '
+ *   scss\pages\inferno.scss 18:16  root stylesheet */
 
-#inferno-hero {
-  background-image: url(../../images/2638px-Gustave_Doré_-_Dante_Alighieri_-_Inferno_-_Plate_10_\(Canto_III_-_Charon_herds_the_sinners_onto_his_boat\).jpg);
-  height: 100vh;
-  width: 100%;
-  background-size: cover10;
-  background-position: center;
-  display: flex;
-  align-items: center;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 18 \2502          color: $primary-color;\d\a    \2502                 ^^^^^^^^^^^^^^\a    \2575 \a   scss\\pages\\inferno.scss 18:16  root stylesheet";
 }
-#inferno-hero h1 {
-  text-align: center;
-  font-family: "Voga";
-  font-size: 600px;
-  color: #AF1E15;
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-.inferno-2-text {
-  display: flex;
-  height: 100vh;
-  width: 100%;
-  align-items: center;
-  background-image: url(../../images/DVinfernoCiampoloDemonAlichino_m.jpg);
-  background-size: cover;
-  background-position: center;
-}
-.inferno-2-text p {
-  text-align: center;
-  padding: 200px;
-  font-size: 24px;
-  font-family: "Berskersvville";
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-}
-
-.inferno-parts {
-  padding-top: 80px;
-  background-image: url(../../images/levels.jpg);
-  background-size: cover;
-  background-position: center20;
-  height: 100vh;
-  width: 100%;
-}
-.inferno-parts .row {
-  background-color: rgba(0, 0, 0, 0.4);
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  color: white;
-  font-family: "Voga";
-  font-size: 60px;
-  letter-spacing: 4px;
-}
-
-@media only screen and (max-width: 576px) {
-  #inferno-hero {
-    padding-top: 140px;
-  }
-  #inferno-hero h1 {
-    display: flex;
-    align-items: center;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    font-size: 90px;
-    background-color: rgba(255, 255, 255, 0.4);
-  }
-  .inferno-2-text {
-    height: 120vh;
-  }
-  .inferno-2-text p {
-    padding: 0 20px;
-    word-spacing: 4px;
-    font-size: 16px;
-  }
-  .inferno-parts {
-    padding-top: 160px;
-    background-position: center;
-  }
-  .inferno-parts .row {
-    letter-spacing: 2px;
-    font-size: 40px;
-  }
-}
-
-/*# sourceMappingURL=inferno.css.map */

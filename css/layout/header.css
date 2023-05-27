@@ -1,60 +1,17 @@
-header {
-  width: 100vw;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  position: fixed;
-  height: 80px;
-  font-family: "Voga";
-  animation: dropDownHeader 1s ease-out;
-}
-header .logo {
-  font-size: 50px;
-  animation: logoBreath 20s infinite ease-in-out;
-}
-header .logo:hover {
-  font-size: 54px;
-}
-header ul {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  margin: 0;
-}
-header li {
-  text-decoration: none;
-  padding: 0 30px;
-  display: flex;
-  align-items: center;
-}
-header a {
-  text-decoration: none;
-  color: white;
-  font-size: 24px;
-  letter-spacing: 1px;
-  transition: 0.5s;
-}
-header a:hover {
-  border-bottom: 1px #AF1E15 solid;
-  letter-spacing: 2px;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 44 |             border-bottom: 1px $primary-color solid;
+ *    |                                ^^^^^^^^^^^^^^
+ *    '
+ *   scss\layout\header.scss 44:32  root stylesheet */
 
-@media only screen and (max-width: 576px) {
-  header {
-    height: fit-content;
-    flex-direction: column;
-    padding-top: 10px;
-    animation: dropDownHeader 2s;
-  }
-  header ul {
-    padding: 0;
-  }
-  header li {
-    padding: 10 20px;
-  }
-  header a {
-    font-size: 18px;
-  }
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 44 \2502              border-bottom: 1px $primary-color solid;\d\a    \2502                                 ^^^^^^^^^^^^^^\a    \2575 \a   scss\\layout\\header.scss 44:32  root stylesheet";
 }
-
-/*# sourceMappingURL=header.css.map */
