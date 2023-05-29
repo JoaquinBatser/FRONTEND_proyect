@@ -1,0 +1,6 @@
+
+@for $i from 1 to 4 {
+    .opacity-primary-color-#{$i}{
+        background-color:rgba(#af1e15,calc($i/3) ) ;
+    }
+}

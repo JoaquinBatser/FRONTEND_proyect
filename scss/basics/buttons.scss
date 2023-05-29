@@ -1,0 +1,14 @@
+
+@mixin input-button($name, $border-radius, $width) {
+    .input-button-#{$name} {
+        padding: 6px 10px;
+        margin-right: 20px;
+        color: white;
+        border-radius: $border-radius;
+        width: $width;
+        
+    }
+}
+
+@include input-button("primary", 2rem,200px);
+@include input-button("secondary", 1rem, 250px)

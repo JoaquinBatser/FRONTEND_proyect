@@ -31,26 +31,15 @@
                 padding: 10px 20px;
                 margin: 10px 0;
                 border: 2px rgba(175, 30, 21, 0.6) solid;
-                background-color: rgba(175, 30, 21, 0.6);
                 color: white;
             }
 
             input {
                 margin: 10px 0;
                 padding: 10px 20px;
-                width: fit-content;
                 border: 2px rgba(175, 30, 21, 0.6) solid;
-                background-color: rgba(175, 30, 21, 0.6);
                 margin-right: 20px;
                 color: white;
-            }
-
-            .buttons {
-                input {
-                    padding: 6px 10px;
-                    margin-right: 20px;
-                    color: white;
-                }
             }
         }
     }

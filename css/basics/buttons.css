@@ -1,0 +1,17 @@
+.input-button-primary {
+  padding: 6px 10px;
+  margin-right: 20px;
+  color: white;
+  border-radius: 2rem;
+  width: 200px;
+}
+
+.input-button-secondary {
+  padding: 6px 10px;
+  margin-right: 20px;
+  color: white;
+  border-radius: 1rem;
+  width: 250px;
+}
+
+/*# sourceMappingURL=buttons.css.map */
