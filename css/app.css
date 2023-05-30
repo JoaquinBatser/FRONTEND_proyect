@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Baskervville&display=swap");
 @font-face {
   font-family: "Voga";
-  src: url(../../fonts/Voga-Medium.otf);
+  src: url(../fonts/Voga-Medium.otf);
 }
 @keyframes dropDownHeader {
   from {
@@ -159,7 +159,7 @@ footer a img {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background-image: url(../../images/The_Barque_of_Dante.jpg);
+  background-image: url(../images/The_Barque_of_Dante.jpg);
   background-size: cover;
   background-position: center;
   font-family: "Voga";
@@ -194,7 +194,7 @@ footer a img {
   }
 }
 #dante {
-  background-image: url(../../images/florence.jpg);
+  background-image: url(../images/florence.jpg);
 }
 
 .dante {
@@ -204,7 +204,7 @@ footer a img {
   padding-right: 0;
 }
 .dante .dante-face {
-  background-image: url(../../images/Portrait_Dante.jpg);
+  background-image: url(../images/Portrait_Dante.jpg);
   height: 100%;
   background-size: cover;
   border-right: 80px rgba(175, 30, 21, 0.4) solid;
@@ -314,13 +314,13 @@ footer a img {
   background-color: rgba(175, 30, 21, 0.4);
 }
 .divine-parts .parts .col .p1 {
-  background-image: url(../../images/inferno.jpg);
+  background-image: url(../images/inferno.jpg);
 }
 .divine-parts .parts .col .p2 {
-  background-image: url(../../images/purgatorio.jpg);
+  background-image: url(../images/purgatorio.jpg);
 }
 .divine-parts .parts .col .p3 {
-  background-image: url(../../images/Par_21_dore.jpg);
+  background-image: url(../images/Par_21_dore.jpg);
 }
 .divine-parts .paradiso {
   color: #af1e15;
@@ -364,7 +364,7 @@ footer a img {
 }
 
 #inferno-hero {
-  background-image: url(../../images/2638px-Gustave_Doré_-_Dante_Alighieri_-_Inferno_-_Plate_10_\(Canto_III_-_Charon_herds_the_sinners_onto_his_boat\).jpg);
+  background-image: url(../images/2638px-Gustave_Doré_-_Dante_Alighieri_-_Inferno_-_Plate_10_\(Canto_III_-_Charon_herds_the_sinners_onto_his_boat\).jpg);
   height: 100vh;
   width: 100%;
   background-size: cover10;
@@ -385,7 +385,7 @@ footer a img {
   height: 100vh;
   width: 100%;
   align-items: center;
-  background-image: url(../../images/DVinfernoCiampoloDemonAlichino_m.jpg);
+  background-image: url(../images/DVinfernoCiampoloDemonAlichino_m.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -400,7 +400,7 @@ footer a img {
 
 .inferno-parts {
   padding-top: 80px;
-  background-image: url(../../images/levels.jpg);
+  background-image: url(../images/levels.jpg);
   background-size: cover;
   background-position: center20;
   height: 100vh;
@@ -452,7 +452,7 @@ footer a img {
 }
 
 .contact-main {
-  background-image: url("../../images/2702px-Gustave_Doré_-_Dante_Alighieri_-_Inferno_-_Plate_65_(Canto_XXXI_-_The_Titans).jpg");
+  background-image: url("../images/2702px-Gustave_Doré_-_Dante_Alighieri_-_Inferno_-_Plate_65_(Canto_XXXI_-_The_Titans).jpg");
   background-size: cover;
   background-position: center;
   padding-top: 80px;
