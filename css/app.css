@@ -352,8 +352,11 @@ footer a img {
     background: linear-gradient(0deg, rgb(255, 255, 255) 0%, #af1e15 60%);
     width: 100%;
   }
+  .divine-parts .purgatorio {
+    height: 100%;
+  }
   .divine-parts .paradiso {
-    margin-top: 900px;
+    height: 100%;
   }
   .divine-parts .part-comedy h2 {
     font-size: 100px;
